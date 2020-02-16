@@ -22,6 +22,7 @@ class Solution:
             num_to_index[num] = i
         return []
 ```
+[code](code/1.py)
 
 * Result : 
 ```
