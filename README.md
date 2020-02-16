@@ -2,4 +2,4 @@
 Web Link : https://leetcode.com/
 
 ## Problems
-* [1. Two Sum](Problems/Two-Sum.md)
+[1. Two Sum](Problems/Two-Sum.md)
