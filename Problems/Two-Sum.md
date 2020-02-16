@@ -24,7 +24,7 @@ class Solution:
 ```
 [code](code/1.py)
 
-* Result : 
+#### Result : 
 ```
 Runtime: 48 ms, faster than 79.16% of Python3 online submissions for Two Sum.
 Memory Usage: 14.2 MB, less than 56.04% of Python3 online submissions for Two Sum.
