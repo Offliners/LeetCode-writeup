@@ -15,11 +15,12 @@ return [0, 1]
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        num_to_index = {}
+        numSet = {}
         for i, num in enumerate(nums):
-            if target - num in num_to_index:
-                return [num_to_index[target - num], i]
-            num_to_index[num] = i
+            if target - num in numSet:
+                return [numSet[target - num], i]
+            numSet[num] = i
+            
         return []
 ```
 [code](code/1.py)
