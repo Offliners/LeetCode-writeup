@@ -1,4 +1,4 @@
-# Leetcode write up
+# Leetcode write-up
 Web Link : https://leetcode.com/
 
 ## Problems
