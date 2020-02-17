@@ -1,6 +1,8 @@
 # Leetcode write-up
 Web Link : https://leetcode.com/
 
+Language : `python3`
+
 ## Problems
 |#|Title|Difficulty|
 |-|-|-|
