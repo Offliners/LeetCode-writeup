@@ -25,7 +25,7 @@ The median is (2 + 3)/2 = 2.5
 ```python
 
 ```
-[code](Python 3/4.py)
+[code](Python%203/4.py)
 
 #### Result : 
 ```
