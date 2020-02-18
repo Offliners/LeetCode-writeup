@@ -25,11 +25,26 @@ Explanation: The answer is "wke", with the length of 3.
 
 ### Python 3
 ```python
-
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        last = {}
+        start = 0
+        longest = 0
+        
+        for i, char in enumerate(s):
+            if char in last and last[char] >= start:
+                start = last[char] + 1
+            else:
+                longest = max(longest, i - start + 1)
+                
+            last[char] = i
+        
+        return longest
 ```
 [code](code/3.py)
 
 #### Result : 
 ```
-
+Runtime: 48 ms, faster than 93.02% of Python3 online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 12.9 MB, less than 100.00% of Python3 online submissions for Longest Substring Without Repeating Characters.
 ```
