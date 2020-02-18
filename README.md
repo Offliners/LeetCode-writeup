@@ -1,7 +1,7 @@
 # Leetcode write-up
 Web Link : https://leetcode.com/
 
-Language : `python3`、 `C`
+Language : `python 3`、 `C`
 
 ## Problems
 |#|Title|Difficulty|Language|
