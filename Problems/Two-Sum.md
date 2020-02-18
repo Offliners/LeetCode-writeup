@@ -23,7 +23,7 @@ class Solution:
             
         return []
 ```
-[code](code/1.py)
+[code](Python%203/1.py)
 
 #### Result : 
 ```
@@ -95,7 +95,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     return NULL;
 }
 ```
-
+[code/C/1.c]
 #### Result
 ```
 Runtime: 4 ms, faster than 99.68% of C online submissions for Two Sum.
