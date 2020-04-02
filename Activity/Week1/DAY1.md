@@ -34,10 +34,7 @@ Memory Usage: 16.5 MB, less than 6.56% of Python3 online submissions for Single 
 ### C
 ```C
 int singleNumber(int* nums, int numsSize){
-    int n;
-    
-    numSort(nums, numsSize);
-    n = nums[0];
+    int n = nums[0];
     
     for(int i = 1; i < numsSize; i++)
         n ^= nums[i];
@@ -47,6 +44,6 @@ int singleNumber(int* nums, int numsSize){
 [code](C/singleNumber.c)
 #### Result
 ```
-Runtime: 1156 ms, faster than 5.24% of C online submissions for Single Number.
-Memory Usage: 6.4 MB, less than 100.00% of C online submissions for Single Number.
+Runtime: 8 ms, faster than 96.30% of C online submissions for Single Number.
+Memory Usage: 6.5 MB, less than 100.00% of C online submissions for Single Number.
 ```
