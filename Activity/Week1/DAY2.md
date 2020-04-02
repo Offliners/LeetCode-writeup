@@ -53,3 +53,37 @@ bool isHappy(int n){
 Runtime: 0 ms, faster than 100.00% of C online submissions for Happy Number.
 Memory Usage: 5.2 MB, less than 100.00% of C online submissions for Happy Number.
 ```
+
+### Python 3
+```python
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        def nextNum(num):
+            result = 0
+
+            while(num != 0):
+                rem = num % 10
+                num //= 10
+                result += rem * rem
+
+            return result
+        
+        num1 = n
+        num2 = n
+        
+        while True:
+            num1 = nextNum(num1)
+            num2 = nextNum(nextNum(num2))
+            
+            if num1 == num2:
+                break
+                
+        return num1 == 1
+```
+[code](Python/happyNumber.py)
+
+#### Result
+```
+Runtime: 32 ms, faster than 66.89% of Python3 online submissions for Happy Number.
+Memory Usage: 13.6 MB, less than 5.26% of Python3 online submissions for Happy Number.
+```
