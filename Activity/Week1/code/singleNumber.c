@@ -1,15 +1,36 @@
 int singleNumber(int* nums, int numsSize){
-    for(int i = 0; i < numsSize; i++)
-    {
-        int count = 0;
-        
-        for(int j = 0; j < numsSize; j++)
-            if(nums[j] == nums[i])
-                count++;
-        
-        if(count == 1)
-            return nums[i];
-    }
+    int n;
     
-    return -1;
+    numSort(nums, numsSize);
+    n = nums[0];
+    
+    for(int i = 1; i < numsSize; i++)
+        n ^= nums[i];
+    return n;
+}
+
+void numSort(int list[],int n)
+{
+	int min;
+
+	for(int i = 0;i < n;i++)
+	{
+		min = i;
+
+		for(int j = i + 1;j < n;j++)
+		{
+			if(list[j] < list[min])
+				min = j;
+		}
+		Swap(&list[i],&list[min]);
+	}
+}
+
+void Swap(int *a,int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
