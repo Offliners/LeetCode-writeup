@@ -51,7 +51,6 @@ void Swap(int *a,int *b)
 	*a = *b;
 	*b = temp;
 }
-}
 ```
 [code](code/singleNumber.c)
 #### Result
