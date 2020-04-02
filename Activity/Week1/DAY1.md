@@ -73,6 +73,6 @@ void Swap(int *a,int *b)
 [code](code/singleNumber.c)
 #### Result
 ```
-Runtime: 1184 ms
-Memory Usage: 6.4 MB
+Runtime: 1156 ms, faster than 5.24% of C online submissions for Single Number.
+Memory Usage: 6.4 MB, less than 100.00% of C online submissions for Single Number.
 ```
