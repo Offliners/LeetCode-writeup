@@ -18,10 +18,38 @@ Explanation:
 
 ### C
 ```C
+int next(int num)
+{
+    int result = 0;
+    int rem;
+    
+    while(num != 0)
+    {
+        rem = num % 10;
+        num /= 10;
+        result += rem * rem;
+    }
+    
+    return result;
+}
 
+bool isHappy(int n){
+    int num1 = n;
+    int num2 = n;
+    
+    do
+    {
+        num1 = next(num1);
+        num2 = next(next(num2));
+    }while(num2 != num1);
+    
+    return num1 == 1;
+}
 ```
 [code](code/happyNumber.c)
 
 #### Result
 ```
+Runtime: 0 ms, faster than 100.00% of C online submissions for Happy Number.
+Memory Usage: 5.2 MB, less than 100.00% of C online submissions for Happy Number.
 ```
