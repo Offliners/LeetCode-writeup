@@ -46,7 +46,7 @@ bool isHappy(int n){
     return num1 == 1;
 }
 ```
-[code](code/happyNumber.c)
+[code](C/happyNumber.c)
 
 #### Result
 ```
