@@ -23,7 +23,7 @@ class Solution:
             
         return n
 ```
-[code](code/singleNumber.py)
+[code](Python/singleNumber.py)
 
 #### Result
 ```
@@ -70,7 +70,7 @@ void Swap(int *a,int *b)
 	*b = temp;
 }
 ```
-[code](code/singleNumber.c)
+[code](C/singleNumber.c)
 #### Result
 ```
 Runtime: 1156 ms, faster than 5.24% of C online submissions for Single Number.
