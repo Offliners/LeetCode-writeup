@@ -32,7 +32,7 @@ int singleNumber(int* nums, int numsSize){
     return -1;
 }
 ```
-[code](singleNumber.c)
+[code](code/singleNumber.c)
 #### Result
 ```
 Runtime: 1276 ms
@@ -61,7 +61,7 @@ Explanation:
 ```C
 
 ```
-[code](happyNumber.c)
+[code](code/happyNumber.c)
 
 #### Result
 ```
