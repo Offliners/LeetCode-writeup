@@ -1,5 +1,5 @@
 # Week 1: April 1st–April 7th
-### Single Number
+## Single Number
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
 #### Example 1
@@ -39,7 +39,7 @@ Runtime: 1276 ms
 Memory Usage: 6.6 MB
 ```
 
-### Happy Number
+## Happy Number
 Write an algorithm to determine if a number is "happy".
 
 A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the
