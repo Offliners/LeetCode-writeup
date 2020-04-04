@@ -34,6 +34,7 @@ class Solution(object):
                 
         nums[count:] = [0] * (len(nums) - count)
 ```
+[code](Python/moveZeroes.py)
 
 #### Result
 ```
