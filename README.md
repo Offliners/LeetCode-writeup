@@ -10,6 +10,7 @@ Language : `python 3`、 `C`
 |2|[Add Two Numbers](Problems/Add-Two-Numbers.md)|Medium|`python 3`|
 |3|[Longest Substring Without Repeating Characters](Problems/Longest-Substring-Without-Repeating-Characters.md)|Medium|`python 3`|
 |4|[Median of Two Sorted Arrays](Problems/Median-of-Two-Sorted-Arrays.md)|Hard|`python 3`|
+|136|[Single Number](Problems/Single-Number.md)|Easy|`Python 3`、`C`|
 
 ## Activity
 * [2020 April 30-Day LeetCoding Challenge](Activity/challenge1.md)
