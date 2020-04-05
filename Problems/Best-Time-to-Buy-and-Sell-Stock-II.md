@@ -32,8 +32,8 @@ class Solution:
 
 #### Result
 ```
-Runtime: 120 ms, faster than 6.89% of Python3 online submissions for Best Time to Buy and Sell Stock II.
-Memory Usage: 15.3 MB, less than 7.32% of Python3 online submissions for Best Time to Buy and Sell Stock II.
+Runtime: 68 ms, faster than 16.64% of Python3 online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 15.1 MB, less than 7.32% of Python3 online submissions for Best Time to Buy and Sell Stock II
 ```
 
 ### C
