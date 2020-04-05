@@ -24,13 +24,22 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
 
 ### C
 ```C
-
+int maxProfit(int* prices, int pricesSize){
+    int profit = 0;
+    
+    for(int i = 0; i + 1 < pricesSize; i++)
+        if(prices[i] < prices[i+1])
+            profit += prices[i+1] - prices[i];
+    
+    return profit;
+}
 ```
 [code](C/Best-Time-to-Buy-and-Sell-Stock-II.c)
 
 #### Result
 ```
-
+Runtime: 68 ms, faster than 16.64% of Python3 online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 15.1 MB, less than 7.32% of Python3 online submissions for Best Time to Buy and Sell Stock II.
 ```
 
 ### Python
