@@ -24,12 +24,16 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
 
 ### Python 3
 ```python
-
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        return sum([max(prices[i] - prices[i - 1], 0) for i in range(1, len(prices))])
 ```
 [code](Python%203/122.py)
 
 #### Result
 ```
+Runtime: 120 ms, faster than 6.89% of Python3 online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 15.3 MB, less than 7.32% of Python3 online submissions for Best Time to Buy and Sell Stock II.
 ```
 
 ### C
