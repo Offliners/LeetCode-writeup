@@ -29,7 +29,7 @@ class Solution(object):
         
         return tempMax
 ```
-[code](code/53.py)
+[code](Python%203/53.py)
 
 #### Result : 
 ```
