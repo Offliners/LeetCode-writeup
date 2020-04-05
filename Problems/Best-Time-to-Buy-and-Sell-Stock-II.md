@@ -38,11 +38,20 @@ Memory Usage: 15.1 MB, less than 7.32% of Python3 online submissions for Best Ti
 
 ### C
 ```C
-
+int maxProfit(int* prices, int pricesSize){
+    int profit = 0;
+    
+    for(int i = 0; i + 1 < pricesSize; i++)
+        if(prices[i] < prices[i+1])
+            profit += prices[i+1] - prices[i];
+    
+    return profit;
+}
 ```
 [code](C/122.c)
 
 #### Result
 ```
-
+Runtime: 12 ms, faster than 28.81% of C online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 6.7 MB, less than 100.00% of C online submissions for Best Time to Buy and Sell Stock II.
 ```
