@@ -38,8 +38,8 @@ int maxProfit(int* prices, int pricesSize){
 
 #### Result
 ```
-Runtime: 68 ms, faster than 16.64% of Python3 online submissions for Best Time to Buy and Sell Stock II.
-Memory Usage: 15.1 MB, less than 7.32% of Python3 online submissions for Best Time to Buy and Sell Stock II.
+Runtime: 12 ms, faster than 28.81% of C online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 6.7 MB, less than 100.00% of C online submissions for Best Time to Buy and Sell Stock II.
 ```
 
 ### Python
