@@ -10,12 +10,8 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 ### Python 3
 ```python
-class Solution(object):
-    def maxSubArray(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
         tempMax = float('-inf')
         maxNum = 0
         
