@@ -78,6 +78,7 @@ bool isHappy(int n){
     return num1 == 1;
 }
 ```
+[code](C/202.c)
 
 #### Result
 ```
