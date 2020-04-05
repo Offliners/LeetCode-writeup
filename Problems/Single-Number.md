@@ -23,7 +23,7 @@ class Solution:
             
         return n
 ```
-[code](Python/136.py)
+[code](Python%203/136.py)
 
 #### Result : 
 ```
