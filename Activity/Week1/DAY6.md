@@ -1,4 +1,4 @@
-# Day - 6 Counting Elements
+# Day - 6 Group-Anagrams
 Given an array of strings, group anagrams together.
 
 #### Example 
