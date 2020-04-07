@@ -94,10 +94,22 @@ Memory Usage: 677.1 MB, less than 100.00% of C online submissions for Group Anag
 
 ### Python 3
 ```python
-
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        result = defaultdict(list)
+        
+        for word in strs:
+            charList = [char for char in word]
+            charList.sort()
+            wordSort = "".join(charList)
+            result[wordSort].append(word)
+            
+        return list(result.values())
 ```
+[code](Python/groupAnagrams.py)
 
 #### Result
 ```
-
+Runtime: 80 ms, faster than 99.96% of Python3 online submissions for Group Anagrams.
+Memory Usage: 16.8 MB, less than 39.62% of Python3 online submissions for Group Anagrams.
 ```
