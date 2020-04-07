@@ -5,6 +5,8 @@
 * [Day 3 - Maximum Subarray](Week1/DAY3.md)
 * [Day 4 - Move Zeroes](Week1/DAY4.md)
 * [Day 5 - Best Time to Buy and Sell Stock II](Week1/DAY5.md)
+* [Day 6 - Group Anagrams](Week1/DAY6.md)
+* [Day 7 - Counting Elements](Week1/DAY7.md)
 #### Week 2 : April 8th–April 14th
 #### Week 3 : April 15th–April 21st
 #### Week 4 : April 22nd–April 28th
