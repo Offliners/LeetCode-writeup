@@ -33,7 +33,6 @@ class Solution:
 Runtime: 80 ms, faster than 99.96% of Python3 online submissions for Group Anagrams.
 Memory Usage: 16.8 MB, less than 39.62% of Python3 online submissions for Group Anagrams.
 ```
-[code](Python%203/49.py)
 
 ### C
 ```C
