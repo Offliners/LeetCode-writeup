@@ -86,7 +86,7 @@ class Solution:
                 
         return count
 ```
-[ocde](Python/countingElements.py)
+[code](Python/countingElements.py)
 
 #### Result
 ```
