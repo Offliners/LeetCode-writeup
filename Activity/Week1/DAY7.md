@@ -66,3 +66,30 @@ int countElements(int* arr, int arrSize){
 Runtime: 0 ms
 Memory Usage: 5.6 MB
 ```
+
+### Python 3
+```python
+class Solution:
+    def countElements(self, arr: List[int]) -> int:
+        count = 0
+        number = 1
+        
+        arr.sort()
+        
+        for i in range(len(arr)):
+            if(arr[i] != arr[i-1]):
+                if(arr[i] == arr[i-1] + 1):
+                    count += number
+                number = 1
+            else:
+                number += 1
+                
+        return count
+```
+[ocde](Python/countingElements.py)
+
+#### Result
+```
+Runtime: 24 ms
+Memory Usage: 14 MB
+```
