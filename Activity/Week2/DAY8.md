@@ -53,10 +53,25 @@ Memory Usage: 5.3 MB, less than 100.00% of C online submissions for Middle of th
 
 ### Python
 ```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
+class Solution:
+    def middleNode(self, head: ListNode) -> ListNode:
+        slow, fast = head, head
+        
+        while fast and fast.next:
+            slow, fast = slow.next, fast.next.next
+            
+        return slow
 ```
+[code](Python/Middle-of-the-Linked-List.py)
 
 #### Result
 ```
-
+Runtime: 24 ms, faster than 86.36% of Python3 online submissions for Middle of the Linked List.
+Memory Usage: 14 MB, less than 7.14% of Python3 online submissions for Middle of the Linked List.
 ```
