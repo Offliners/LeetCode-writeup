@@ -21,12 +21,34 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 
 ### C
 ```C
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
 
+
+struct ListNode* middleNode(struct ListNode* head){
+    struct ListNode* fast = head;
+    struct ListNode* slow = head;
+    
+    while(fast != NULL && fast->next != NULL)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+    
+    return slow;
+}
 ```
+[code](C/Middle-of-the-Linked-List.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Middle of the Linked List.
+Memory Usage: 5.3 MB, less than 100.00% of C online submissions for Middle of the Linked List.
 ```
 
 ### Python
