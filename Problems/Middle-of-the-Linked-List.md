@@ -21,23 +21,58 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 
 ### Python 3
 ```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
+class Solution:
+    def middleNode(self, head: ListNode) -> ListNode:
+        slow, fast = head, head
+        
+        while fast and fast.next:
+            slow, fast = slow.next, fast.next.next
+            
+        return slow
 ```
 [code](Python%203/876.py)
 
 #### Result
 ```
-
+Runtime: 24 ms, faster than 86.36% of Python3 online submissions for Middle of the Linked List.
+Memory Usage: 14 MB, less than 7.14% of Python3 online submissions for Middle of the Linked List.
 ```
 
 
 ### C
 ```C
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
 
+
+struct ListNode* middleNode(struct ListNode* head){
+    struct ListNode* fast = head;
+    struct ListNode* slow = head;
+    
+    while(fast != NULL && fast->next != NULL)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+    }
+    
+    return slow;
+}
 ```
 [code](C/876.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Middle of the Linked List.
+Memory Usage: 5.3 MB, less than 100.00% of C online submissions for Middle of the Linked List.
 ```
