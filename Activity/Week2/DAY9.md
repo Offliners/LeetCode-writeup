@@ -95,3 +95,9 @@ class Solution:
             indexS, indexT = indexS - 1, indexT - 1
 ```
 [code](Python/backspace-string-compare.py)
+
+#### Result
+```
+Runtime: 20 ms, faster than 98.37% of Python3 online submissions for Backspace String Compare.
+Memory Usage: 13.6 MB, less than 8.00% of Python3 online submissions for Backspace String Compare.
+```
