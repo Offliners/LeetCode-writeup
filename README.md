@@ -16,6 +16,7 @@ Language : `python 3`、 `C`
 |136|[Single Number](Problems/Single-Number.md)|Easy|`Python 3`、`C`|
 |202|[Happy Number](Problems/Happy-Number.md)|Easy|`Python 3`、`C`|
 |283|[Move Zeroes](Problems/Move-Zeroes.md)|Easy|`Python 3`、`C`|
+|844|[Backspace String Compare](Problems/Backspace-String-Compare.md)|Easy|`Python 3`、`C`|
 |876|[Middle of the Linked List](Problems/Middle-of-the-Linked-List.md)|Easy|`Python 3`、`C`|
 
 ## Activity
