@@ -9,6 +9,7 @@
 * [Day 7 - Counting Elements](Week1/DAY7.md)
 #### Week 2 : April 8th–April 14th
 * [Day 8 - Middle of the Linked List](Week2/DAY8.md)
+* [Day 9 - Backspace String Compare](Week2/DAY9.md)
 #### Week 3 : April 15th–April 21st
 #### Week 4 : April 22nd–April 28th
 #### Week 5 : April 29th–April 30th
