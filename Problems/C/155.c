@@ -1,6 +1,3 @@
-
-
-
 typedef struct {
     int* data;
     int* mins;
