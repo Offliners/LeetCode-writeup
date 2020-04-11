@@ -29,7 +29,7 @@ minStack.getMin();   --> Returns -2.
 
 ```
 
-### Python 3
+### Python
 ```python
 
 ```
