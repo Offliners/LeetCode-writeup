@@ -14,6 +14,7 @@ Language : `python 3`、 `C`
 |53|[Maximum Subarray](Problems/Maximum-Subarray.md)|Easy|`Python 3`、`C`|
 |122|[Best Time to Buy and Sell Stock II](Problems/Best-Time-to-Buy-and-Sell-Stock-II.md)|Easy|`Python 3`、`C`|
 |136|[Single Number](Problems/Single-Number.md)|Easy|`Python 3`、`C`|
+|155|[Min Stack](Problems/Min-Stack.md)|Easy|`Python 3`、`C`|
 |202|[Happy Number](Problems/Happy-Number.md)|Easy|`Python 3`、`C`|
 |283|[Move Zeroes](Problems/Move-Zeroes.md)|Easy|`Python 3`、`C`|
 |844|[Backspace String Compare](Problems/Backspace-String-Compare.md)|Easy|`Python 3`、`C`|
