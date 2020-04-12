@@ -51,11 +51,49 @@ Memory Usage: 15.9 MB, less than 51.72% of Python3 online submissions for Diamet
 
 ### C
 ```C
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+int maxDepth(struct TreeNode *root)
+{
+    if(root == NULL) 
+        return 0;
+    
+    int maxLeft = maxDepth(root->left);
+    int maxRight = maxDepth(root->right);
+    
+    if(maxLeft > maxRight)
+        return maxLeft + 1;
+    else
+        return maxRight + 1;
+}
 
+int diameterOfBinaryTree(struct TreeNode* root){
+    if(root == NULL)
+        return 0;
+    
+    int middle = maxDepth(root->left) + maxDepth(root->right);
+    int left = diameterOfBinaryTree(root->left);
+    int right = diameterOfBinaryTree(root->right);
+    int max = middle;
+    
+    if(left > max)
+        max = left;
+    if(right > max)
+        max = right;
+    
+    return max;
+}
 ```
 [code](C/543.c)
 
 #### Result
 ```
-
+Runtime: 16 ms, faster than 23.13% of C online submissions for Diameter of Binary Tree.
+Memory Usage: 7.8 MB, less than 100.00% of C online submissions for Diameter of Binary Tree.
 ```
