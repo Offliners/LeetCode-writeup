@@ -11,6 +11,7 @@
 * [Day 8 - Middle of the Linked List](Week2/DAY8.md)
 * [Day 9 - Backspace String Compare](Week2/DAY9.md)
 * [Day 10 - Min Stack](Week2/DAY10.md)
+* [Day 11 - Diamter of Binary Tree](Week2/DAY11.md)
 #### Week 3 : April 15th–April 21st
 #### Week 4 : April 22nd–April 28th
 #### Week 5 : April 29th–April 30th
