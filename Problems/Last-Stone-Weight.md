@@ -74,7 +74,7 @@ int lastStoneWeight(int* stones, int stonesSize){
     return 0;
 }
 ```
-[code](1046.c)
+[code](C/1046.c)
 
 #### Result
 ```
