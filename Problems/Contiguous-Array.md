@@ -19,7 +19,7 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 ```python
 
 ```
-[code](Python%203/545.py)
+[code](Python%203/525.py)
 
 #### Result
 ```
@@ -30,7 +30,7 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 ```C
 
 ```
-[code](C/545.c)
+[code](C/525.c)
 
 #### Result
 ```
