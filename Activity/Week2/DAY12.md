@@ -67,7 +67,8 @@ int lastStoneWeight(int* stones, int stonesSize){
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Last Stone Weight.
+Memory Usage: 5.6 MB, less than 100.00% of C online submissions for Last Stone Weight.
 ```
 
 ### Python
