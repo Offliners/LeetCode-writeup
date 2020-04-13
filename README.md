@@ -20,6 +20,7 @@ Language : `python 3`、 `C`
 |543|[Diameter of Binary Tree](Problems/Diameter-of-Binary-Tree.md)|Easy|`Python 3`、`C`|
 |844|[Backspace String Compare](Problems/Backspace-String-Compare.md)|Easy|`Python 3`、`C`|
 |876|[Middle of the Linked List](Problems/Middle-of-the-Linked-List.md)|Easy|`Python 3`、`C`|
+|1046|[Last Stone Weight](Problems/Last-Stone-Weight.md)|Easy|`Python 3`、`C`|
 
 ## Activity
 * [2020 April 30-Day LeetCoding Challenge](Activity/challenge1.md)
