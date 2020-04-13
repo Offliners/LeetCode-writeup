@@ -60,11 +60,29 @@ Memory Usage: 9.7 MB, less than 100.00% of C online submissions for Contiguous A
 
 ### Python 
 ```python
-
+class Solution:
+    def findMaxLength(self, nums: List[int]) -> int:
+        maxLength = 0
+        Diff = 0
+        Diffs = {0: -1}
+        
+        for i, num in enumerate(nums):
+            if num == 0:
+                Diff += 1
+            else:
+                Diff -= 1
+                
+            if Diff in Diffs:
+                maxLength = max(maxLength, i - Diffs[Diff])
+            else:
+                Diffs[Diff] = i
+                
+        return maxLength
 ```
 [code](Python/contiguousArray.py)
 
 #### Result
 ```
-
+Runtime: 884 ms, faster than 92.98% of Python3 online submissions for Contiguous Array.
+Memory Usage: 18.3 MB, less than 16.67% of Python3 online submissions for Contiguous Array.
 ```
