@@ -21,13 +21,26 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that's the value o
 
 ### Python 3
 ```python
-
+class Solution:
+    def lastStoneWeight(self, stones: List[int]) -> int:
+        stones = [-stone for stone in stones]
+        
+        heapq.heapify(stones)
+        
+        while len(stones) > 1:
+            smash = heapq.heappop(stones) - heapq.heappop(stones)
+            
+            if smash != 0:
+                heapq.heappush(stones, smash)
+                
+        return -stones[0] if stones else 0
 ```
 [code](Python%203/1046.py)
 
 #### Result
 ```
-
+Runtime: 28 ms, faster than 75.18% of Python3 online submissions for Last Stone Weight.
+Memory Usage: 14 MB, less than 100.00% of Python3 online submissions for Last Stone Weight.
 ```
 
 ### C
