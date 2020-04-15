@@ -25,3 +25,7 @@ Language : `python 3`、 `C`
 
 ## Activity
 * [2020 April 30-Day LeetCoding Challenge](Activity/challenge1.md)
+
+## IDE
+ * Visual stdio code : https://code.visualstudio.com/download
+ * Extensions : https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-leetcode&fbclid=IwAR3eNuGeX2BSfDBXg2mqzAiPWkxIu0zjc9uoNWUzTdrHQOBjXCoaM2WMKXw
