@@ -27,13 +27,43 @@ Output: True
 
 ### C
 ```C
-
+bool checkValidString(char * s){
+    int min = 0;
+    int max = 0;
+    
+    for(int i = 0; i < strlen(s); i++)
+    {
+        if(s[i] == '(')
+        {
+            min++;
+            max++;
+        }
+        else if(s[i] == ')')
+        {
+            min--;
+            max--;
+        }
+        else if(s[i] == '*')
+        {
+            min--;
+            max++;
+        }
+        
+        if(max < 0)
+            return false;
+        if(min < 0)
+            min = 0;
+    }
+    
+    return min == 0;
+}
 ```
 [code](C/valid-parenthesis-string.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Valid Parenthesis String.
+Memory Usage: 5.2 MB, less than 100.00% of C online submissions for Valid Parenthesis String.
 ```
 
 ### Python
