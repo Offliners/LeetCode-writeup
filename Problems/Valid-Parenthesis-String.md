@@ -6,3 +6,43 @@ Given a string containing only three types of characters: '(', ')' and '*', writ
 * Left parenthesis `(` must go before the corresponding right parenthesis `)`.
 * `*` could be treated as a single right parenthesis `)` or a single left parenthesis `(` or an empty string.
 * An empty string is also valid.
+
+#### Example 1
+```
+Input: "()"
+Output: True
+```
+
+#### Example 2
+```
+Input: "(*)"
+Output: True
+```
+
+#### Example 3
+```
+Input: "(*))"
+Output: True
+```
+
+### Python 3
+```python
+
+```
+[code](Python%203/678.py)
+
+#### Result
+```
+
+```
+
+### C
+```C
+
+```
+[code](C/678.c)
+
+#### Result
+```
+
+```
