@@ -9,13 +9,26 @@ Output: [24,12,8,6]
 
 ### Python 3
 ```python
-
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        result = [1]
+        
+        for i in range(1, len(nums)):
+            result.append(nums[i - 1] * result[-1])
+            
+        right = 1
+        for i in range(len(nums) - 1, -1, -1):
+            result[i] *= right
+            right *= nums[i]
+            
+        return result
 ```
 [code](Python%203/238.py)
 
 #### Result
 ```
-
+Runtime: 124 ms, faster than 70.60% of Python3 online submissions for Product of Array Except Self.
+Memory Usage: 20.2 MB, less than 92.00% of Python3 online submissions for Product of Array Except Self.
 ```
 
 ### C
