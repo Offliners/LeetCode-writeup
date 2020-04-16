@@ -27,13 +27,35 @@ Output: True
 
 ### Python 3
 ```python
-
+class Solution:
+    def checkValidString(self, s: str) -> bool:
+        min = 0
+        max = 0
+        
+        for char in s:
+            if char == '(':
+                min += 1
+                max += 1
+            elif char == ')':
+                min -= 1
+                max -= 1
+            elif char == '*':
+                min -= 1
+                max += 1
+            
+            if max < 0:
+                return False
+            if min < 0:
+                min = 0
+                
+        return min == 0
 ```
 [code](Python%203/678.py)
 
 #### Result
 ```
-
+Runtime: 28 ms, faster than 69.78% of Python3 online submissions for Valid Parenthesis String.
+Memory Usage: 13.5 MB, less than 14.29% of Python3 online submissions for Valid Parenthesis String.
 ```
 
 ### C
