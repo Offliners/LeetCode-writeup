@@ -64,7 +64,8 @@ char * stringShift(char * s, int** shift, int shiftSize, int* shiftColSize){
 
 #### Result
 ```
-
+Runtime: 0 ms
+Memory Usage: 5.7 MB
 ```
 
 ### Python
