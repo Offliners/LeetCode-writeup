@@ -16,5 +16,6 @@
 * [Day 13 - Contiguous Array](Week2/DAY13.md)
 * [Day 14 - Perform String Shifts](Week2/DAY14.md)
 #### Week 3 : April 15th–April 21st
+* [Day 15 - Product of Array Except Self](Week3/DAY15.md)
 #### Week 4 : April 22nd–April 28th
 #### Week 5 : April 29th–April 30th
