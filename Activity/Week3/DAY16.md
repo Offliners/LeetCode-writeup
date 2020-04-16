@@ -29,7 +29,7 @@ Output: True
 ```C
 
 ```
-[code](C/valid-parenthesis-string.py.c)
+[code](C/valid-parenthesis-string.c)
 
 #### Result
 ```
