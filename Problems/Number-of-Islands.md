@@ -29,7 +29,7 @@ Output: 3
 ```python
 
 ```
-[code/200.py]
+[code](Python%203/200.py)
 
 #### Result
 ```
