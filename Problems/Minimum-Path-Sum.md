@@ -15,13 +15,29 @@ Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 
 ### Python 3
 ```python
-
+class Solution:
+    def minPathSum(self, grid: List[List[int]]) -> int:
+        row = len(grid)
+        col = len(grid[0])
+        
+        minPath = [float('inf') for _ in range(col + 1)]
+        minPath[1] = 0
+        
+        for i in range(1, row + 1):
+            newPath = [float('inf') for _ in range(col + 1)]
+            for j in range(1, col + 1):
+                newPath[j] = grid[i - 1][j - 1] + min(minPath[j], newPath[j - 1])
+                
+            minPath = newPath
+            
+        return minPath[-1]
 ```
 [code](Python%203/64.py)
 
 #### Result
 ```
-
+Runtime: 100 ms, faster than 73.41% of Python3 online submissions for Minimum Path Sum.
+Memory Usage: 14.4 MB, less than 77.19% of Python3 online submissions for Minimum Path Sum.
 ```
 
 ### C
