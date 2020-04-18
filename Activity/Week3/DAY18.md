@@ -75,11 +75,27 @@ Memory Usage: 7.2 MB, less than 100.00% of C online submissions for Minimum Path
 
 ### Python
 ```python
-
+class Solution:
+    def minPathSum(self, grid: List[List[int]]) -> int:
+        row = len(grid)
+        col = len(grid[0])
+        
+        minPath = [float('inf') for _ in range(col + 1)]
+        minPath[1] = 0
+        
+        for i in range(1, row + 1):
+            newPath = [float('inf') for _ in range(col + 1)]
+            for j in range(1, col + 1):
+                newPath[j] = grid[i - 1][j - 1] + min(minPath[j], newPath[j - 1])
+                
+            minPath = newPath
+            
+        return minPath[-1]
 ```
 [code](Python/minimum-path-sum.py)
 
 #### Result
 ```
-
+Runtime: 104 ms, faster than 52.44% of Python3 online submissions for Minimum Path Sum.
+Memory Usage: 14.2 MB, less than 78.95% of Python3 online submissions for Minimum Path Sum.
 ```
