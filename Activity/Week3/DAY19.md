@@ -34,11 +34,33 @@ Output: -1
 
 ### Python
 ```python
-
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        left, right = 0, len(nums) - 1
+        
+        while left <= right:
+            mid = (left + right) // 2
+            
+            if nums[mid] == target:
+                return mid
+            
+            if nums[left] <= nums[mid]:
+                if nums[left] <= target and target <= nums[mid]:
+                    right = mid - 1
+                else:
+                    left = mid + 1
+            else:
+                if nums[mid] < target and target <= nums[right]:
+                    left = mid + 1
+                else:
+                    right = mid - 1
+                    
+        return -1
 ```
 [code](Python/search-in-rotated-sorted-array.py)
 
 #### Result
 ```
-
+Runtime: 44 ms, faster than 29.53% of Python3 online submissions for Search in Rotated Sorted Array.
+Memory Usage: 14.2 MB, less than 6.29% of Python3 online submissions for Search in Rotated Sorted Array.
 ```
