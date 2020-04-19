@@ -20,5 +20,6 @@
 * [Day 16 - Valid Parenthesis String](Week3/DAY16.md)
 * [Day 17 - Number of Islands](Week3/DAY17.md)
 * [Day 18 - Minimim Path Sum](Week3/DAY18.md)
+* [Day 19 - Search in Rotated Sorted Array](Week3/DAY19.md)
 #### Week 4 : April 22nd–April 28th
 #### Week 5 : April 29th–April 30th
