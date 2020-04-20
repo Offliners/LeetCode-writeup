@@ -80,5 +80,6 @@ struct TreeNode* bstFromPreorder(int* preorder, int preorderSize){
 
 #### Result
 ```
-
+Runtime: 4 ms, faster than 62.79% of C online submissions for Construct Binary Search Tree from Preorder Traversal.
+Memory Usage: 5.8 MB, less than 100.00% of C online submissions for Construct Binary Search Tree from Preorder Traversal.
 ```
