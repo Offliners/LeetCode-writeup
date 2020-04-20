@@ -13,13 +13,36 @@ Output: [8,5,10,1,7,null,12]
 
 ### Python 3
 ```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
+class Solution:
+    def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
+        self.topIndex = 0;
+        
+        def buildTree(max = float('inf')):
+            if self.topIndex >= len(preorder) or preorder[self.topIndex] > max:
+                return None
+            
+            root = TreeNode(preorder[self.topIndex])
+            self.topIndex += 1
+            root.left = buildTree(root.val)
+            root.right = buildTree(max)
+            
+            return root
+        
+        return buildTree()
 ```
 [code](Python%203/1008.py)
 
 #### Result
 ```
-
+Runtime: 36 ms, faster than 62.89% of Python3 online submissions for Construct Binary Search Tree from Preorder Traversal.
+Memory Usage: 14 MB, less than 6.67% of Python3 online submissions for Construct Binary Search Tree from Preorder Traversal.
 ```
 
 ### C
