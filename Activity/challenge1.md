@@ -21,5 +21,6 @@
 * [Day 17 - Number of Islands](Week3/DAY17.md)
 * [Day 18 - Minimim Path Sum](Week3/DAY18.md)
 * [Day 19 - Search in Rotated Sorted Array](Week3/DAY19.md)
+* [Day 20 - Construct Binary Search Tree from Preorder Traversal](Week3/DAY20.md)
 #### Week 4 : April 22nd–April 28th
 #### Week 5 : April 29th–April 30th
