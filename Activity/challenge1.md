@@ -24,4 +24,5 @@
 * [Day 20 - Construct Binary Search Tree from Preorder Traversal](Week3/DAY20.md)
 * [Day 21 - Leftmost Column with at Least a One](Week3/DAY21.md)
 #### Week 4 : April 22nd–April 28th
+* [Day 22 - Subarray Sum Equals K](Week4/DAY22.md)
 #### Week 5 : April 29th–April 30th
