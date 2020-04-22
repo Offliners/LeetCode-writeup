@@ -29,7 +29,7 @@ Language : `python 3`、 `C`
 |1008|[Construct Binary Search Tree from Preorder Traversal](Problems/Construct-Binary-Search-Tree-from-Preorder-Traversal.md)|Medium|`Python 3`、`C`|
 |1046|[Last Stone Weight](Problems/Last-Stone-Weight.md)|Easy|`Python 3`、`C`|
 
-## Activity
+## Explore
 * [2020 April 30-Day LeetCoding Challenge](Activity/challenge1.md)
 
 ## IDE
