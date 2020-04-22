@@ -9,13 +9,31 @@ Output: 2
 
 ### Python 3
 ```python
-
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        total = 0
+        hashTable = defaultdict(int)
+        sum = 0
+        
+        for num in nums:
+            sum += num
+            
+            if sum == k:
+                total += 1
+            
+            if sum - k in hashTable:
+                total += hashTable[sum - k]
+                
+            hashTable[sum] += 1
+            
+        return total
 ```
 [code](Python%203/560.py)
 
 #### Result
 ```
-
+Runtime: 112 ms, faster than 79.59% of Python3 online submissions for Subarray Sum Equals K.
+Memory Usage: 16.2 MB, less than 20.00% of Python3 online submissions for Subarray Sum Equals K.
 ```
 
 ### C
