@@ -13,7 +13,7 @@ Explanation: 342 + 465 = 807.
 ```
 
 ### Python 3
-```
+```python
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
