@@ -38,7 +38,7 @@ class Solution:
         
         return outputNum.next
 ```
-[code](code/2.py)
+[code](Python%203/2.py)
 
 #### Result : 
 ```
