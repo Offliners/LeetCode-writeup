@@ -15,37 +15,44 @@ Output: 0
 
 ### C
 ```C
-
+int rangeBitwiseAnd(int m, int n){
+    int count = 0;
+    
+    while(m != n)
+    {
+        m = m >> 1;
+        n = n >> 1;
+        count++;
+    }
+    
+    return m << count;
+}
 ```
 [code](C/bitwise-and-of-numbers-range.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Bitwise AND of Numbers Range.
+Memory Usage: 5.4 MB, less than 100.00% of C online submissions for Bitwise AND of Numbers Range.
 ```
 
 ### Python
 ```python
 class Solution:
     def rangeBitwiseAnd(self, m: int, n: int) -> int:
-        if m == 0:
-            return 0
+        count = 0
         
-        result = 0
-        bit = int(log(n, 2))
-        
-        while bit >= 0 and ((m &  (1 << bit)) == (n & (1 << bit))):
-            if (m & (1 << bit)):
-                result += 2**bit
-                
-            bit -= 1
-        
-        return result
+        while m != n:
+            m = m >> 1
+            n = n >> 1
+            count += 1
+            
+        return m << count
 ```
 [code](Python/bitwise-and-of-numbers-range.py)
 
 #### Result
 ```
-Runtime: 56 ms, faster than 66.92% of Python3 online submissions for Bitwise AND of Numbers Range.
-Memory Usage: 14.1 MB, less than 100.00% of Python3 online submissions for Bitwise AND of Numbers Range.
+Runtime: 52 ms, faster than 82.23% of Python3 online submissions for Bitwise AND of Numbers Range.
+Memory Usage: 13.7 MB, less than 100.00% of Python3 online submissions for Bitwise AND of Numbers Range.
 ```
