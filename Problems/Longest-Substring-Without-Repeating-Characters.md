@@ -41,7 +41,7 @@ class Solution:
         
         return longest
 ```
-[code](code/3.py)
+[code](Python%203/3.py)
 
 #### Result : 
 ```
