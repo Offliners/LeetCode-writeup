@@ -41,11 +41,23 @@ Memory Usage: 13.9 MB, less than 100.00% of Python3 online submissions for Bitwi
 
 ### C
 ```C
-
+int rangeBitwiseAnd(int m, int n){
+    int count = 0;
+    
+    while(m != n)
+    {
+        m = m >> 1;
+        n = n >> 1;
+        count++;
+    }
+    
+    return m << count;
+}
 ```
 [code](C/201.c)
 
 #### Result
 ```
-
+Runtime: 4 ms, faster than 90.98% of C online submissions for Bitwise AND of Numbers Range.
+Memory Usage: 5.4 MB, less than 100.00% of C online submissions for Bitwise AND of Numbers Range.
 ```
