@@ -26,11 +26,26 @@ Output: 0
 
 ### Python
 ```python
-
+class Solution:
+    def rangeBitwiseAnd(self, m: int, n: int) -> int:
+        if m == 0:
+            return 0
+        
+        result = 0
+        bit = int(log(n, 2))
+        
+        while bit >= 0 and ((m &  (1 << bit)) == (n & (1 << bit))):
+            if (m & (1 << bit)):
+                result += 2**bit
+                
+            bit -= 1
+        
+        return result
 ```
 [code](Python/bitwise-and-of-numbers-range.py)
 
 #### Result
 ```
-
+Runtime: 56 ms, faster than 66.92% of Python3 online submissions for Bitwise AND of Numbers Range.
+Memory Usage: 14.1 MB, less than 100.00% of Python3 online submissions for Bitwise AND of Numbers Range.
 ```
