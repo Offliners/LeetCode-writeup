@@ -27,4 +27,5 @@
 * [Day 22 - Subarray Sum Equals K](Week4/DAY22.md)
 * [Day 23 - Bitwise AND of Numbers Range](Week4/DAY23.md)
 * [Day 24 - LRU Cache](Week4/DAY24.md)
+* [Day 25 - Jump Game](Week4/DAY25.md)
 #### Week 5 : April 29th–April 30th
