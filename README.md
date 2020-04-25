@@ -16,6 +16,7 @@ Language : `python 3`、 `C`
 |64|[Minimum Path Sum](Problems/Minimum-Path-Sum.md)|Medium|`Python 3`、`C`|
 |122|[Best Time to Buy and Sell Stock II](Problems/Best-Time-to-Buy-and-Sell-Stock-II.md)|Easy|`Python 3`、`C`|
 |136|[Single Number](Problems/Single-Number.md)|Easy|`Python 3`、`C`|
+|146|[LRU Cache](Problems/LRU-Cache.md)|Medium|`Python 3`、`C`|
 |155|[Min Stack](Problems/Min-Stack.md)|Easy|`Python 3`、`C`|
 |200|[Number of Islands](Problems/Number-of-Islands.md)|Medium|`Python 3`、`C`|
 |201|[Bitwise AND of Numbers Range](Problems/Bitwise-AND-of-Numbers-Range.md)|Medium|`Python 3`、`C`|
