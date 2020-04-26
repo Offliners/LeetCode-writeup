@@ -28,4 +28,5 @@
 * [Day 23 - Bitwise AND of Numbers Range](Week4/DAY23.md)
 * [Day 24 - LRU Cache](Week4/DAY24.md)
 * [Day 25 - Jump Game](Week4/DAY25.md)
+* [Day 26 - Longest Common Subsequence](Week4/DAY26.md)
 #### Week 5 : April 29th–April 30th
