@@ -17,7 +17,7 @@ Output: 4
 ```python
 
 ```
-[code](Python%203/223.py)
+[code](Python%203/221.py)
 
 #### Result
 ```
@@ -28,7 +28,7 @@ Output: 4
 ```C
 
 ```
-[code](C/223.c)
+[code](C/221.c)
 
 #### Result
 ```
