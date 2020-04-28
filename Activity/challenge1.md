@@ -30,4 +30,5 @@
 * [Day 25 - Jump Game](Week4/DAY25.md)
 * [Day 26 - Longest Common Subsequence](Week4/DAY26.md)
 * [Day 27 - Maximal Square](Week4/DAY27.md)
+* [Day 28 - First Unique Number](Week4/DAY28.md)
 #### Week 5 : April 29th–April 30th
