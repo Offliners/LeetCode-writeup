@@ -29,22 +29,22 @@ Input: [-10,9,20,null,null,15,7]
 Output: 42
 ```
 
-### Python 3
-```python
+### C
+```C
 
 ```
-[code](Python%203/124.py)
+[code](C/binary-tree-maximum-path-sum.c)
 
 #### Result
 ```
 
 ```
 
-### C
-```C
+### Python
+```python
 
 ```
-[code](C/124.c)
+[code](Python/binary-tree-maximum-path-sum.py)
 
 #### Result
 ```
