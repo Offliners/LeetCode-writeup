@@ -32,3 +32,5 @@
 * [Day 27 - Maximal Square](Week4/DAY27.md)
 * [Day 28 - First Unique Number](Week4/DAY28.md)
 #### Week 5 : April 29th–April 30th
+* [Binary Tree Maximum Path Sum](Week5/DAY29.md)
+* [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](Week5/DAY30.md)
