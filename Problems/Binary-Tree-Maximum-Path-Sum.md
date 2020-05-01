@@ -87,6 +87,6 @@ int maxPathSum(struct TreeNode* root){
 
 #### Result
 ```
-Runtime: 400 ms
-Memory Usage: 13.2 MB
+Runtime: 384 ms, faster than 5.00% of C online submissions for Binary Tree Maximum Path Sum.
+Memory Usage: 13.2 MB, less than 100.00% of C online submissions for Binary Tree Maximum Path Sum.
 ```
