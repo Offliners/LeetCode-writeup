@@ -82,11 +82,31 @@ Memory Usage: 13.2 MB, less than 100.00% of C online submissions for Binary Tree
 
 ### Python
 ```python
-
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def maxPathSum(self, root: TreeNode) -> int:
+        return self.sumRoot(root)[0]
+    
+    def sumRoot(self, node):
+        if not node:
+            return float('-inf'), 0
+        
+        leftVia, leftDown = self.sumRoot(node.left)
+        rightVia, rightDown = self.sumRoot(node.right)
+        via = max(node.val + max(0, leftDown) + max(0, rightDown), leftVia, rightVia)
+        down = node.val + max(0, leftDown, rightDown)
+        
+        return via, down
 ```
 [code](Python/binary-tree-maximum-path-sum.py)
 
 #### Result
 ```
-
+Runtime: 104 ms, faster than 20.92% of Python3 online submissions for Binary Tree Maximum Path Sum.
+Memory Usage: 20.6 MB, less than 83.33% of Python3 online submissions for Binary Tree Maximum Path Sum.
 ```
