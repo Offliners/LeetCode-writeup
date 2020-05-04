@@ -25,6 +25,7 @@ Language : `python 3`、 `C`
 |202|[Happy Number](Problems/Happy-Number.md)|Easy|`Python 3`、`C`|
 |221|[Maximal Square](Problems/Maximal-Square.md)|Medium|`Python 3`、`C`|
 |238|[Product of Array Except Self](Problems/Product-of-Array-Except-Self.md)|Medium|`Python 3`、`C`|
+|278|[First Bad Version](Problems/First-Bad-Version.md)|Easy|`Python 3`、`C`|
 |283|[Move Zeroes](Problems/Move-Zeroes.md)|Easy|`Python 3`、`C`|
 |525|[Contiguous Array](Problems/Contiguous-Array.md)|Medium|`Python 3`、`C`|
 |543|[Diameter of Binary Tree](Problems/Diameter-of-Binary-Tree.md)|Easy|`Python 3`、`C`|
