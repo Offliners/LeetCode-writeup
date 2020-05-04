@@ -39,6 +39,7 @@ Language : `python 3`、 `C`
 
 ## Explore
 * [2020 April 30-Day LeetCoding Challenge](Explore/2020April/challenge1.md)
+* [2020 May 30-Day LeetCoding Challenge](Explore/2020May/challenge1.md)
 
 ## IDE
  * Visual stdio code : https://code.visualstudio.com/download
