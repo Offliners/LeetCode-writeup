@@ -18,13 +18,32 @@ Then 4 is the first bad version.
 
 ### C
 ```C
+// The API isBadVersion is defined for you.
+// bool isBadVersion(int version);
 
+int firstBadVersion(int n) {
+    long long first = 1, last = (long long)n + 1;
+    long long mid = first + (last - first) / 2;
+    
+    while(!((isBadVersion(mid))&&(!isBadVersion(mid-1))))
+    {
+        if(!isBadVersion(mid))
+            first = mid + 1;
+        else
+            last = mid;
+        
+        mid = first + (last - first) / 2;
+    }
+    
+    return mid;
+}
 ```
 [code](C/first-bad-version.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for First Bad Version.
+Memory Usage: 5.3 MB, less than 100.00% of C online submissions for First Bad Version.
 ```
 
 ### Python
