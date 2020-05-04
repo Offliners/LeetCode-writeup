@@ -31,11 +31,21 @@ Memory Usage: 13.9 MB, less than 5.39% of Python3 online submissions for Jewels 
 
 ### C
 ```C
-
+int numJewelsInStones(char * J, char * S){
+    int count = 0;
+    
+    for(int i = 0; i < strlen(J); i++)
+        for(int j = 0; j < strlen(S); j++)
+            if(J[i] == S[j])
+                count++;
+    
+    return count;
+}
 ```
 [code](C/771.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Jewels and Stones.
+Memory Usage: 5.3 MB, less than 100.00% of C online submissions for Jewels and Stones.
 ```
