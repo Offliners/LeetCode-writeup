@@ -1,8 +1,10 @@
 class Solution:
     def findComplement(self, num: int) -> int:
+        mask = num
         i = 1
         
-        while i <= num:
-            i <<= 1
-            
-        return (i - 1) ^ num
+        while i <= 16:
+            mask |= mask>>i
+            i *= 2
+        
+        return num ^ mask
