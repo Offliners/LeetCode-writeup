@@ -36,11 +36,19 @@ Memory Usage: 13.8 MB, less than 10.00% of Python3 online submissions for Number
 
 ### C
 ```C
-
+int findComplement(int num){
+    int mask = num;
+    
+    for(int i = 1; i <= 16; i *= 2)
+        mask |= mask>>i;
+    
+    return num ^ mask;
+}
 ```
 [code](C/476.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Number Complement.
+Memory Usage: 5.2 MB, less than 100.00% of C online submissions for Number Complement.
 ```
