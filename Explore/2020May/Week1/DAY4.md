@@ -17,13 +17,21 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 
 ### C
 ```C
-
+int findComplement(int num){
+    int mask = num;
+    
+    for(int i = 1; i <= 16; i *= 2)
+        mask |= mask>>i;
+    
+    return num ^ mask;
+}
 ```
 [code](C/numberComplement.c)
 
 #### Result
 ```
-
+Runtime: 0 ms, faster than 100.00% of C online submissions for Number Complement.
+Memory Usage: 5.2 MB, less than 100.00% of C online submissions for Number Complement.
 ```
 
 ### Python
