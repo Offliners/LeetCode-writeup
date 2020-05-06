@@ -38,18 +38,20 @@ Memory Usage: 5.2 MB, less than 100.00% of C online submissions for Number Compl
 ```python
 class Solution:
     def findComplement(self, num: int) -> int:
+        mask = num
         i = 1
         
-        while i <= num:
-            i <<= 1
-            
-        return (i - 1) ^ num
+        while i <= 16:
+            mask |= mask>>i
+            i *= 2
+        
+        return num ^ mask
 ```
 [code](Python/numberComplement.py)
 
 #### Result
 ```
-Runtime: 28 ms, faster than 69.30% of Python3 online submissions for Number Complement.
+Runtime: 32 ms, faster than 35.53% of Python3 online submissions for Number Complement.
 Memory Usage: 13.8 MB, less than 10.00% of Python3 online submissions for Number Complement.
 ```
 
