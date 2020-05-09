@@ -12,14 +12,25 @@ return 2.
 
 ### Python 3
 ```python
-
-
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
+        count = [0] * 26
+        
+        for i in s:
+            count[ord(i) - ord('a')] += 1
+            
+        for i, c in enumerate(s):
+            if count[ord(c) - ord('a')] == 1:
+                return i;
+            
+        return -1
 ```
 [code](Python%203/387.py)
 
 #### Result
 ```
-
+Runtime: 196 ms, faster than 17.65% of Python3 online submissions for First Unique Character in a String.
+Memory Usage: 14 MB, less than 6.52% of Python3 online submissions for First Unique Character in a String.
 ```
 
 ### C
