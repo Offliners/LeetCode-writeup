@@ -80,11 +80,44 @@ Memory Usage: 5.8 MB, less than 100.00% of C online submissions for Cousins in B
 
 ### Python
 ```python
-
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
+        nodeVal = {root.val: root}
+        nodeParent = {root: None}
+        
+        while True:
+            xNode = nodeVal.get(x, None)
+            yNode = nodeVal.get(y, None)
+            
+            if xNode is not None and yNode is not None:
+                return nodeParent[xNode] != nodeParent[yNode]
+            
+            if xNode is not None or yNode is not None:
+                return False
+            
+            newvalNode = {}
+            
+            for node in nodeVal.values():
+                if node.left:
+                    nodeParent[node.left] = node
+                    newvalNode[node.left.val] = node.left
+                    
+                if node.right:
+                    nodeParent[node.right] = node
+                    newvalNode[node.right.val] = node.right
+            
+            nodeVal = newvalNode
 ```
 [code](Python/cousins-in-binary-tree.py)
 
 #### Result
 ```
-
+Runtime: 32 ms, faster than 63.00% of Python3 online submissions for Cousins in Binary Tree.
+Memory Usage: 14 MB, less than 6.12% of Python3 online submissions for Cousins in Binary Tree.
 ```
