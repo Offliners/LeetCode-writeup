@@ -28,6 +28,7 @@ Language : `python 3`、 `C`
 |278|[First Bad Version](Problems/First-Bad-Version.md)|Easy|`Python 3`、`C`|
 |283|[Move Zeroes](Problems/Move-Zeroes.md)|Easy|`Python 3`、`C`|
 |383|[Ransom Note](Problems/Ransom-Note.md)|Easy|`Python 3`、`C`|
+|387|[First Unique Character in a String](Problems/First-Unique-Character-in-a-String.md)|Easy|`Python 3`，`C`|
 |476|[Number Complement](Problems/Number-Complement.md)|Easy|`Python 3`、`C`|
 |525|[Contiguous Array](Problems/Contiguous-Array.md)|Medium|`Python 3`、`C`|
 |543|[Diameter of Binary Tree](Problems/Diameter-of-Binary-Tree.md)|Easy|`Python 3`、`C`|
