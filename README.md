@@ -20,6 +20,7 @@ Language : `python 3`、 `C`
 |136|[Single Number](Problems/Single-Number.md)|Easy|`Python 3`、`C`|
 |146|[LRU Cache](Problems/LRU-Cache.md)|Medium|`Python 3`、`C`|
 |155|[Min Stack](Problems/Min-Stack.md)|Easy|`Python 3`、`C`|
+|169|[Majority Element](Problems/Majority-Element.md)|Easy|`Python 3`、`C`|
 |200|[Number of Islands](Problems/Number-of-Islands.md)|Medium|`Python 3`、`C`|
 |201|[Bitwise AND of Numbers Range](Problems/Bitwise-AND-of-Numbers-Range.md)|Medium|`Python 3`、`C`|
 |202|[Happy Number](Problems/Happy-Number.md)|Easy|`Python 3`、`C`|
