@@ -42,11 +42,28 @@ Memory Usage: 15.2 MB, less than 7.14% of Python3 online submissions for Majorit
 
 ### C
 ```C
-
+int majorityElement(int* nums, int numsSize){
+    int count = 0;
+    int candidate;
+    
+    for(int i = 0; i < numsSize; i++)
+    {
+        if(count == 0)
+            candidate = nums[i];
+        
+        if(candidate == nums[i])
+            count++;
+        else
+            count--;
+    }
+    
+    return candidate;
+}
 ```
 [code](C/169.c)
 
 #### Result
 ```
-
+Runtime: 16 ms, faster than 94.68% of C online submissions for Majority Element.
+Memory Usage: 7.5 MB, less than 100.00% of C online submissions for Majority Element.
 ```
