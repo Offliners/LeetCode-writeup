@@ -42,6 +42,7 @@ Language : `python 3`、 `C`
 |1008|[Construct Binary Search Tree from Preorder Traversal](Problems/Construct-Binary-Search-Tree-from-Preorder-Traversal.md)|Medium|`Python 3`、`C`|
 |1046|[Last Stone Weight](Problems/Last-Stone-Weight.md)|Easy|`Python 3`、`C`|
 |1143|[Longest Common Subsequence](Problems/Longest-Common-Subsequence.md)|Medium|`Python 3`、`C`|
+|1232|[Check If It Is a Straight Line](Problems/Check-If-It-Is-a-Straight-Line.md)|Easy|`Python 3`、`C`|
 
 ## Explore
 * [2020 April 30-Day LeetCoding Challenge](Explore/2020April/challenge1.md)
