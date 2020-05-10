@@ -42,11 +42,29 @@ Memory Usage: 13.9 MB, less than 100.00% of Python3 online submissions for Check
 
 ### C
 ```C
+bool checkStraightLine(int** coordinates, int coordinatesSize, int* coordinatesColSize){
+    if(coordinatesSize < 3)
+        return true;
+        
+    int xDiff = coordinates[1][0] - coordinates[0][0];
+    int yDiff = coordinates[1][1] - coordinates[0][1];
+        
+    for(int i = 1; i < coordinatesSize; i++)
+    {
+        int dx = coordinates[i][0] - coordinates[0][0];
+        int dy = coordinates[i][1] - coordinates[0][1];
 
+        if(xDiff * dy != yDiff * dx)
+            return false;
+    }
+        
+    return true;
+}
 ```
 [code](C/1232.c)
 
 #### Result
 ```
-
+Runtime: 8 ms, faster than 86.36% of C online submissions for Check If It Is a Straight Line.
+Memory Usage: 6.2 MB, less than 100.00% of C online submissions for Check If It Is a Straight Line.
 ```
