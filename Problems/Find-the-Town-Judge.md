@@ -42,13 +42,26 @@ Output: 3
 
 ### Python 3
 ```python
-
+class Solution:
+    def findJudge(self, N: int, trust: List[List[int]]) -> int:
+        trustNum = [0] * (N + 1)
+        
+        for trustee, trusted in trust:
+            trustNum[trusted] += 1
+            trustNum[trustee] -= 1
+            
+        for people in range(1, N + 1):
+            if trustNum[people] == N - 1:
+                return people
+        
+        return -1
 ```
 [code](Python%203/997.py)
 
 #### Result
 ```
-
+Runtime: 796 ms, faster than 56.66% of Python3 online submissions for Find the Town Judge.
+Memory Usage: 18.1 MB, less than 10.00% of Python3 online submissions for Find the Town Judge.
 ```
 
 ### C
