@@ -9,3 +9,4 @@
 * [Day 7 - Cousins in Binary Tree](Week1/DAY7.md)
 #### Week 2 : May 8th – May 14th
 * [Day 8 - Check If It Is a Straight Line](Week2/DAY8.md)
+* [Day 9 - Vakid Perfect Square](Week2/DAY9.md)
