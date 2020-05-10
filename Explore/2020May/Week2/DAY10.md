@@ -42,13 +42,31 @@ Output: 3
 
 ### C
 ```C
-
+int findJudge(int N, int** trust, int trustSize, int* trustColSize){
+    int *trustNum = malloc(sizeof(int) * (N + 1));
+    
+    for(int i = 0; i < N + 1; i++)
+        trustNum[i] = 0;
+    
+    for(int i = 0; i < trustSize; i++)
+    {
+        trustNum[trust[i][0]] -= 1;
+        trustNum[trust[i][1]] += 1;
+    }
+    
+    for(int i = 1; i < N + 1; i++)
+        if(trustNum[i] == N - 1)
+            return i;
+    
+    return -1;
+}
 ```
 [code](C/find-the-town-judge.c)
 
 #### Result
 ```
-
+Runtime: 164 ms, faster than 21.05% of C online submissions for Find the Town Judge.
+Memory Usage: 16.1 MB, less than 100.00% of C online submissions for Find the Town Judge.
 ```
 
 ### Python
