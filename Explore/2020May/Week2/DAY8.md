@@ -26,11 +26,27 @@ Output: false
 
 ### Python
 ```python
-
+class Solution:
+    def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
+        if len(coordinates) < 3:
+            return True
+        
+        xDiff = coordinates[1][0] - coordinates[0][0]
+        yDiff = coordinates[1][1] - coordinates[0][1]
+        
+        for x, y in coordinates[2:]:
+            dx = x - coordinates[0][0]
+            dy = y - coordinates[0][1]
+            
+            if xDiff * dy != yDiff * dx:
+                return False
+        
+        return True
 ```
 [code](Python/check-if-it-is-a-straight-line.py)
 
 #### Result
 ```
-
+Runtime: 52 ms, faster than 98.32% of Python3 online submissions for Check If It Is a Straight Line.
+Memory Usage: 13.9 MB, less than 100.00% of Python3 online submissions for Check If It Is a Straight Line.
 ```
