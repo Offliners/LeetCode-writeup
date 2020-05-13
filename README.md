@@ -31,6 +31,7 @@ Language : `python 3`、 `C`
 |367|[Valid Perfect Square](Problems/Valid-Perfect-Square.md)|Easy|`Python 3`、`C`|
 |383|[Ransom Note](Problems/Ransom-Note.md)|Easy|`Python 3`、`C`|
 |387|[First Unique Character in a String](Problems/First-Unique-Character-in-a-String.md)|Easy|`Python 3`，`C`|
+|402|[Remove K Digits](Problems/Remove-K-Digits.md)|Medium|`Python 3`、`C`|
 |476|[Number Complement](Problems/Number-Complement.md)|Easy|`Python 3`、`C`|
 |525|[Contiguous Array](Problems/Contiguous-Array.md)|Medium|`Python 3`、`C`|
 |540|[Single Element in a Sorted Array](Problems/Single-Element-in-a-Sorted-Array.md)|Medium|`Python 3`、`C`|
