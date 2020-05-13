@@ -69,7 +69,7 @@ Runtime: 20 ms, faster than 85.15% of C online submissions for Flood Fill.
 Memory Usage: 7.6 MB, less than 100.00% of C online submissions for Flood Fill.
 ```
 
-### Python 3
+### Python
 ```python
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
