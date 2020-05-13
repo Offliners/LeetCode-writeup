@@ -26,7 +26,7 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 ```python
 
 ```
-[code](Python%203/504.py)
+[code](Python%203/402.py)
 
 #### Result
 ```
@@ -37,7 +37,7 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 ```C
 
 ```
-[code](C/504.c)
+[code](C/402.c)
 
 #### Result
 ```
