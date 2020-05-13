@@ -12,3 +12,4 @@
 * [Day 9 - Vakid Perfect Square](Week2/DAY9.md)
 * [Day 10 - Find the Town Judge](Week2/DAY10.md)
 * [Day 11 - Flood Fill](Week2/DAY11.md)
+* [Day 12 - Single Element in a Sorted Array](Week2/DAY12.md)
