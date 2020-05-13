@@ -35,11 +35,27 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 
 ### Python
 ```python
-
+class Solution:
+    def removeKdigits(self, num: str, k: int) -> str:
+        result = []
+        
+        for i in num:
+            while k and result and result[-1] > i:
+                result.pop()
+                k -= 1
+            
+            result.append(i)
+            
+        while k:
+            result.pop()
+            k -= 1
+        
+        return ''.join(result).lstrip('0') or '0'
 ```
 [code](Python/remove-k-digits.py)
 
 #### Result
 ```
-
+Runtime: 24 ms, faster than 99.43% of Python3 online submissions for Remove K Digits.
+Memory Usage: 13.9 MB, less than 22.22% of Python3 online submissions for Remove K Digits.
 ```
