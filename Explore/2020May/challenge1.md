@@ -13,3 +13,4 @@
 * [Day 10 - Find the Town Judge](Week2/DAY10.md)
 * [Day 11 - Flood Fill](Week2/DAY11.md)
 * [Day 12 - Single Element in a Sorted Array](Week2/DAY12.md)
+* [Day 13 - Remove K Digits](Week2/DAY13.md)
