@@ -33,6 +33,7 @@ Language : `python 3`、 `C`
 |387|[First Unique Character in a String](Problems/First-Unique-Character-in-a-String.md)|Easy|`Python 3`，`C`|
 |476|[Number Complement](Problems/Number-Complement.md)|Easy|`Python 3`、`C`|
 |525|[Contiguous Array](Problems/Contiguous-Array.md)|Medium|`Python 3`、`C`|
+|540|[Single Element in a Sorted Array](Problems/Single-Element-in-a-Sorted-Array.md)|Medium|`Python 3`、`C`|
 |543|[Diameter of Binary Tree](Problems/Diameter-of-Binary-Tree.md)|Easy|`Python 3`、`C`|
 |560|[Subarray Sum Equals K](Problems/Subarray-Sum-Equals-K.md)|Medium|`Python 3`、`C`|
 |678|[Valid Parenthesis String](Problems/Valid-Parenthesis-String.md)|Medium|`Python 3`、`C`|
