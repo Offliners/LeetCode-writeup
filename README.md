@@ -1,14 +1,14 @@
 # Leetcode write-up
 Web Link : https://leetcode.com/
 
-Language : `python 3`、 `C`
+Language : `Python 3`、 `C`
 
 ## Problems
 |#|Title|Difficulty|Language|
 |-|-|-|-|
-|1|[Two Sum](Problems/Two-Sum.md)|Easy|`python 3`、`C`|
-|2|[Add Two Numbers](Problems/Add-Two-Numbers.md)|Medium|`python 3`|
-|3|[Longest Substring Without Repeating Characters](Problems/Longest-Substring-Without-Repeating-Characters.md)|Medium|`python 3`|
+|1|[Two Sum](Problems/Two-Sum.md)|Easy|`Python 3`、`C`|
+|2|[Add Two Numbers](Problems/Add-Two-Numbers.md)|Medium|`Python 3`|
+|3|[Longest Substring Without Repeating Characters](Problems/Longest-Substring-Without-Repeating-Characters.md)|Medium|`Python 3`|
 |4|[Median of Two Sorted Arrays](Problems/Median-of-Two-Sorted-Arrays.md)|Hard||
 |33|[Search in Rotated Sorted Array](Problems/Search-in-Rotated-Sorted-Array.md)|Medium|`Python 3`、`C`|
 |49|[Group Anagrams](Problems/Group-Anagrams.md)|Medium|`Python 3`、`C`|
