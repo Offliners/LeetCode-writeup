@@ -42,13 +42,28 @@ Explanation: Subarray [-1] has maximum sum -1
 
 ### Python 3
 ```python
-
+class Solution:
+    def maxSubarraySumCircular(self, A: List[int]) -> int:
+        if all(num <= 0 for num in A):
+            return max(A)
+        
+        overallMax, overallMin = float('-inf'), float('inf')
+        localMax, localMin = 0, 0
+        
+        for num in A:
+            localMax = max(localMax, 0) + num
+            localMin = min(localMin, 0) + num
+            overallMax = max(overallMax, localMax)
+            overallMin = min(overallMin, localMin)
+        
+        return max(overallMax, sum(A) - overallMin)
 ```
 [code](Python%203/918.py)
 
 #### Result
 ```
-
+Runtime: 536 ms, faster than 86.79% of Python3 online submissions for Maximum Sum Circular Subarray.
+Memory Usage: 18 MB, less than 100.00% of Python3 online submissions for Maximum Sum Circular Subarray.
 ```
 
 ### C
