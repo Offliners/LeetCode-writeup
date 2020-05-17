@@ -17,13 +17,33 @@ Output: 2->3->6->7->1->5->4->NULL
 
 ### Python 3
 ```python
-
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        evenHead = even = ListNode(None)
+        oddHead = odd = ListNode(None)
+        
+        while head:
+            odd.next = head
+            odd = odd.next
+            even.next = head.next
+            even = even.next
+            head = head.next.next if even else None
+        
+        odd.next = evenHead.next
+        
+        return oddHead.next
 ```
 [code](Python%203/328.py)
 
-#### Resutl
+#### Result
 ```
-
+Runtime: 80 ms, faster than 5.04% of Python3 online submissions for Odd Even Linked List.
+Memory Usage: 15.7 MB, less than 8.33% of Python3 online submissions for Odd Even Linked List.
 ```
 
 ### C
