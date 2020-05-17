@@ -17,3 +17,5 @@
 * [Day 14 - Implement Trie (Prefix Tree)](Week2/DAY14.md)
 #### Week 3 : May 15th – May 21st
 * [Day 15 - Maximum Sum Circular Subarray](Week3/DAY15.md)
+* [Day 16 - Odd Even Linked List](Week3/DAY16.md)
+* [Day 17 - Find All Anagrams in a String](Week3/DAY17.md)
