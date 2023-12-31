@@ -1,7 +1,9 @@
 # LeetCode writeup
 
-[![Offliner's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=offliner)](https://leetcode.com/)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Offliner?theme=light&ext=activity)
 
 ## Problems
 |LeetCode #|Problem|Difficulty|Solution|
 |-|-|-|-|
+
+## Weekly Contests
