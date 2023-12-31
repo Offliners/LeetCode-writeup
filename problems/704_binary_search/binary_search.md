@@ -14,4 +14,3 @@ Link: [link](https://leetcode.com/problems/binary-search/)
 |-|-|-|
 |C|[link](./sol_1/main.c)|[link](./sol_2/main.c)|
 |C++|[link](./sol_1/main.cpp)|[link](./sol_2/main.cpp)|
-|Python|[link](./sol_1/main.py)|[link](./sol_2/main.py)|
