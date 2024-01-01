@@ -1,5 +1,5 @@
-# 268. Missing Number
-Link: [link](https://leetcode.com/problems/missing-number/)
+# 141. Linked List Cycle
+Link: [link](https://leetcode.com/problems/linked-list-cycle/)
 
 ### Solution 1 - Two Pointers
 * Time complexity: $O(n)$
