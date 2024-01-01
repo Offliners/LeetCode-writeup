@@ -8,5 +8,5 @@ Link: [link](https://leetcode.com/problems/lexicographical-numbers/)
 ### Code
 ||Sol 1|
 |-|-|
-|C||
+|C|[link](./sol_1/main.c)|
 |C++|[link](./sol_1/main.cpp)|
