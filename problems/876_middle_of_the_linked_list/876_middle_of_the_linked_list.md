@@ -2,7 +2,7 @@
 Link: [link](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ### Solution 1 - Two Pointers
-* Time complexity: $O(1)$
+* Time complexity: $O(n)$
 * Space complexity: $O(1)$
 
 ### Code
