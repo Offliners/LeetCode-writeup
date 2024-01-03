@@ -33,6 +33,7 @@
 | 704        | <a href="https://leetcode.com/problems/binary-search/" target="_blank">Binary Search</a>                                                                           | Easy       | [link](./problems/704_binary_search/binary_search.md)                                                                             |
 | 876        | <a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank">Middle of the Linked List</a>                                                   | Easy       | [link](./problems/876_middle_of_the_linked_list/876_middle_of_the_linked_list.md)                                                 |
 | 917        | <a href="https://leetcode.com/problems/reverse-only-letters/" target="_blank">Reverse Only Letters</a>                                                             | Easy       | [link](./problems/917_reverse_only_letters/917_reverse_only_letters.md)                                                           |
+| 2469       | <a href="https://leetcode.com/problems/convert-the-temperature/" target="_blank">Convert the Temperature</a>                                                       | Easy       | [link](./problems/2469_convert_the_temperature/2469_convert_the_temperature.md)                                                   |
 
 ## Weekly Contests
 * [Warm Up Contest](./contests/1_warm_up_contest/1_warm_up_contest.md)
