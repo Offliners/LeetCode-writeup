@@ -7,11 +7,16 @@
 * [Weekly Contests](#weekly-contests)
 
 ## Problems
+
+<details>
+<summary>More</summary>
+
 | LeetCode # | Problem                                                                                                                                                            | Difficulty | Solution                                                                                                                          |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | 2          | <a href="https://leetcode.com/problems/add-two-numbers/" target="_blank">Add Two Numbers</a>                                                                       | Medium     | [link](./problems/2_add_two_numbers/2_add_two_numbers.md)                                                                         |
 | 9          | <a href="https://leetcode.com/problems/palindrome-number/" target="_blank">Palindrome Number</a>                                                                   | Easy       | [link](./problems/9_palindrome_number/9_palindrome_number.md)                                                                     |
 | 26         | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank">Remove Duplicates from Sorted Array</a>                               | Easy       | [link](./problems/26_remove_duplicates_from_sorted_array/26_remove_duplicates_from_sorted_array.md)                               |
+| 27         | <a href="https://leetcode.com/problems/remove-element/" target="_blank">Remove Element</a>                                                                         | Easy       | [link](./problems/27_remove_element/27_remove_element.md)                                                                         |
 | 28         | <a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" target="_blank">Find the Index of the First Occurrence in a String</a> | Easy       | [link](./problems/28_find_the_index_of_the_first_occurrence_in_a_string/28_find_the_index_of_the_first_occurrence_in_a_string.md) |
 | 35         | <a href="https://leetcode.com/problems/search-insert-position/" target="_blank">Search Insert Position</a>                                                         | Easy       | [link](./problems/35_search_insert_position/35_search_insert_position.md)                                                         |
 | 66         | <a href="https://leetcode.com/problems/plus-one/" target="_blank">Plus One</a>                                                                                     | Easy       | [link](./problems/66_plus_one/66_plus_one.md)                                                                                     |
@@ -37,6 +42,10 @@
 | 917        | <a href="https://leetcode.com/problems/reverse-only-letters/" target="_blank">Reverse Only Letters</a>                                                             | Easy       | [link](./problems/917_reverse_only_letters/917_reverse_only_letters.md)                                                           |
 | 1920       | <a href="https://leetcode.com/problems/build-array-from-permutation/" target="_blank">Build Array from Permutation</a>                                             | Easy       | [link](./problems/1920_build_array_from_permutation/1920_build_array_from_permutation.md)                                         |
 | 2469       | <a href="https://leetcode.com/problems/convert-the-temperature/" target="_blank">Convert the Temperature</a>                                                       | Easy       | [link](./problems/2469_convert_the_temperature/2469_convert_the_temperature.md)                                                   |
+
+</details>
+
+
 
 ## Weekly Contests
 * [Warm Up Contest](./contests/1_warm_up_contest/1_warm_up_contest.md)
