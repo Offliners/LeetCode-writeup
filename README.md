@@ -49,6 +49,7 @@
 | 917        | <a href="https://leetcode.com/problems/reverse-only-letters/" target="_blank">Reverse Only Letters</a>                                                             | Easy       | [link](./problems/917_reverse_only_letters/917_reverse_only_letters.md)                                                           |
 | 1920       | <a href="https://leetcode.com/problems/build-array-from-permutation/" target="_blank">Build Array from Permutation</a>                                             | Easy       | [link](./problems/1920_build_array_from_permutation/1920_build_array_from_permutation.md)                                         |
 | 2469       | <a href="https://leetcode.com/problems/convert-the-temperature/" target="_blank">Convert the Temperature</a>                                                       | Easy       | [link](./problems/2469_convert_the_temperature/2469_convert_the_temperature.md)                                                   |
+| 2610       | <a href="https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/" target="_blank">Convert an Array Into a 2D Array With Conditions</a>     | Medium     | [link](./problems/2610_convert_an_array_into_a_2d_array_with_conditions/2610_convert_an_array_into_a_2d_array_with_conditions.md) |
 
 </details>
 
