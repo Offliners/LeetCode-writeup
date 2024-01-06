@@ -8,5 +8,5 @@ Link: [link](https://leetcode.com/problems/ugly-number/)
 ### Code
 ||Sol 1|
 |-|-|
-|C||
+|C|[link](./sol_1/main.c)|
 |C++|[link](./sol_1/main.cpp)|
