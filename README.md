@@ -1,6 +1,6 @@
 # LeetCode writeup
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Offliner?theme=light&ext=activity)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Offliner?theme=light&ext=contest)
 
 ## TOC
 * [Problems](#problems)
@@ -23,6 +23,7 @@
 | 33         | <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank">Search in Rotated Sorted Array</a>                                                           | Medium     | [link](./problems/33_search%20in_rotated_sorted_array/33_search%20in_rotated_sorted_array.md)                                                             |
 | 35         | <a href="https://leetcode.com/problems/search-insert-position/" target="_blank">Search Insert Position</a>                                                                           | Easy       | [link](./problems/35_search_insert_position/35_search_insert_position.md)                                                                                 |
 | 50         | <a href="https://leetcode.com/problems/powx-n/" target="_blank">Pow(x, n)</a>                                                                                                        | Medium     | [link](./problems/50_pow_x_n/50_pow_x_n.md)                                                                                                               |
+| 54         | <a href="https://leetcode.com/problems/spiral-matrix/" target="_blank">Spiral Matrix</a>                                                                                             | Medium     | [link](./problems/54_spiral_matrix/54_spiral_matrix.md)                                                                                                   |
 | 66         | <a href="https://leetcode.com/problems/plus-one/" target="_blank">Plus One</a>                                                                                                       | Easy       | [link](./problems/66_plus_one/66_plus_one.md)                                                                                                             |
 | 67         | <a href="https://leetcode.com/problems/add-binary/" target="_blank">Add Binary</a>                                                                                                   | Easy       | [link](./problems/67_add_binary/67_add_binary.md)                                                                                                         |
 | 69         | <a href="https://leetcode.com/problems/sqrtx/" target="_blank">Sqrt(x)</a>                                                                                                           | Easy       | [link](./problems/69_sqrtx/69_sqrtx.md)                                                                                                                   |
