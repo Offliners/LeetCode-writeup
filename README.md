@@ -2,10 +2,6 @@
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Offliner?theme=light&ext=contest)
 
-## TOC
-* [Problems](#problems)
-* [Weekly Contests](#weekly-contests)
-
 ## Problems
 
 <details>
@@ -59,6 +55,3 @@
 | 10031      | <a href="https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/" target="_blank">Smallest Missing Integer Greater Than Sequential Prefix Sum</a> | Easy       | [link](./problems/10031_smallest_missing_integer_greater_than_sequential_prefix_sum/10031_smallest_missing_integer_greater_than_sequential_prefix_sum.md) |
 
 </details>
-
-## Weekly Contests
-* [Warm Up Contest](./contests/1_warm_up_contest/1_warm_up_contest.md)
