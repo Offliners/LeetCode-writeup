@@ -16,5 +16,5 @@ Link: [link](https://leetcode.com/problems/trapping-rain-water/)
 ### Code
 ||Sol 1|Sol 2|Sol 3|
 |-|-|-|-|
-|C||
+|C|[link](./sol_1/main.c)|[link](./sol_2/main.c)|[link](./sol_3/main.c)|
 |C++|[link](./sol_1/main.cpp)|[link](./sol_2/main.cpp)|[link](./sol_3/main.cpp)|

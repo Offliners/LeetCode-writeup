@@ -1,6 +1,6 @@
 # LeetCode writeup
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Offliner?theme=light&ext=contest)
+[![Offliner's LeetCode stats](https://leetcard.jacoblin.cool/Offliner?theme=light&ext=contest)](https://leetcode.com/Offliner/)
 
 ## Problems
 
