@@ -1,7 +1,7 @@
 # 26. Remove Duplicates from Sorted Array
 Link: [link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
-### Solution 1 - Brute Force
+### Solution 1 - Two Pointers
 * Time complexity: $O(n)$
 * Space complexity: $O(1)$
 
