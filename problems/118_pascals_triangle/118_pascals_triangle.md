@@ -1,7 +1,7 @@
 # 118. Pascal's Triangle
 Link: [link](https://leetcode.com/problems/pascals-triangle/)
 
-### Solution 1 - Brute Force
+### Solution 1 - Dynamic Programming
 * Time complexity: $O(n^2)$
 * Space complexity: $O(n^2)$
 
