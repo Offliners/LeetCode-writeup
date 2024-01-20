@@ -7,6 +7,6 @@ Link: [link](https://leetcode.com/problems/valid-sudoku/)
 
 ### Code
 ||Sol 1|
-|-|-|-|-|
+|-|-|
 |C|[link](./sol_1/main.c)|
 |C++|[link](./sol_1/main.cpp)|
