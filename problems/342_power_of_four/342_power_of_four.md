@@ -5,6 +5,10 @@ Link: [link](https://leetcode.com/problems/power-of-four/)
 * Time complexity: $O(log n)$
 * Space complexity: $O(1)$
 
+### Solution 1 - Optimization Solution 1
+* Time complexity: $O(1)$
+* Space complexity: $O(1)$
+
 ### Code
 ||Sol 1|
 |-|-|
