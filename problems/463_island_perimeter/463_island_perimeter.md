@@ -2,7 +2,7 @@
 Link: [link](https://leetcode.com/problems/island-perimeter/)
 
 ### Solution 1 - Brute Force
-* Time complexity: $O(n^2)$
+* Time complexity: $O(n*m)$
 * Space complexity: $O(1)$
 
 ### Code
