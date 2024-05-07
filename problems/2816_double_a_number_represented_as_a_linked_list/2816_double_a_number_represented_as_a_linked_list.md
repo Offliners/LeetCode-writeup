@@ -5,8 +5,12 @@ Link: [link](https://leetcode.com/problems/double-a-number-represented-as-a-link
 * Time complexity: $O(n)$
 * Space complexity: $O(1)$
 
+### Solution 2 - Recursion
+* Time complexity: $O(n)$
+* Space complexity: $O(1)$
+
 ### Code
-||Sol 1|
-|-|-|
-|C|[link](./sol_1/main.c)|
-|C++|[link](./sol_1/main.cpp)|
+||Sol 1|Sol 2|
+|-|-|-|
+|C|[link](./sol_1/main.c)|[link](./sol_2/main.c)|
+|C++|[link](./sol_1/main.cpp)|[link](./sol_2/main.cpp)|
